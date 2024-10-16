@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Age Calculator</title>
+</head>
+
+<body>
+    <div class="age-calculator">
+        <div class="user-inputs">
+            <div class="day input">
+                <label for="day-input">DAY</label>
+                <input type="number" id="day-input" name="day-input" placeholder="DD">
+                <div class="error-text">Must be a valid day</div>
+            </div>
+            <div class="month input">
+                <label for="month-input">MONTH</label>
+                <input type="number" id="month-input" name="month-input" placeholder="MM">
+                <div class="error-text">Must be a valid month</div>
+            </div>
+            <div class="year input">
+                <label for="year-input">YEAR</label>
+                <input type="number" id="year-input" name="year-input" placeholder="YYYY">
+                <div class="error-text">Must be in the past</div>
+            </div>
+        </div>
+
+        <button class="btn">
+            <i class="fa fa-solid fa-arrow-down fa-2x"></i>
+        </button>
+
+        <div class="user-age">
+            <div class="user-years age">
+                <span>- -</span>
+                <span>years</span>
+            </div>
+            <div class="user-months age">
+                <span>- -</span>
+                <span>months</span>
+            </div>
+            <div class="user-days age">
+                <span>- -</span>
+                <span>days</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
