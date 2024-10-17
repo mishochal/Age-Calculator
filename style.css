@@ -105,3 +105,31 @@ body {
     font-family: fantasy;
     color: #874cff;
 }
+
+/* Different Screen Size */
+
+@media (max-width: 550px) {
+    .age-calculator {
+        height: 500px;
+    }
+
+    .user-inputs {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .input {
+        width: calc((100% / 3) - (20px / 3));
+        padding: 0;
+    }
+
+    .btn {
+        left: 50%;
+        cursor: default;
+    }
+
+    .user-age {
+        margin-top: 50px;
+        font-size: 50px;
+    }
+}
