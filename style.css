@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+}
+
+.age-calculator {
+    background-color: white;
+    border-radius: 20px;
+    border-bottom-right-radius: 120px;
+    max-width: 550px;
+    height: 400px;
+    padding: 30px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.user-inputs {
+    height: 30%;
+    display: flex;
+    width: 85%;
+    border-bottom: groove 1px #8a8a8a;
+}
+
+.input {
+    width: 30%;
+    color: #8b8b8b;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-right: 15px;
+}
+
+.input label {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.input input {
+    font-size: 20px;
+    padding: 7px 13px;
+    font-weight: bold;
+    border: groove 1px #8a8a8a;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input input::-webkit-outer-spin-button,
+.input input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.input input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.error-text {
+    display: none;
+    color: red;
+    font-size: 10.5px;
+    font-style: italic;
+}
+
+.btn {
+    border: none;
+    background-color: #874cff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    translate: -50% -50%;
+    left: 85%;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #956cd5;
+}
+
+.btn:active {
+    box-shadow: 0px 0px 5px 0px;
+}
+
+.fa-arrow-down {
+    color: white;
+}
+
+.user-age {
+    font-size: 60px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.age span {
+    font-family: fantasy;
+    color: #874cff;
+}
