@@ -101,7 +101,7 @@ body {
     font-style: italic;
 }
 
-.age span {
+.age .dashes {
     font-family: fantasy;
     color: #874cff;
 }
